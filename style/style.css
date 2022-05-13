@@ -1,0 +1,302 @@
+/* import fonts */
+@font-face {
+	font-family: 'dance_partner'; 
+	src: url(../fonts/dance_partner.ttf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-Bold'; 
+	src: url(../fonts/Pelinka-Bold.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-CondensedBold'; 
+	src: url(../fonts/Pelinka-CondensedBold.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-CondensedExtraLight'; 
+	src: url(../fonts/Pelinka-CondensedExtraLight.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-ExpandedBold'; 
+	src: url(../fonts/Pelinka-ExpandedBold.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-ExpandedExtraLight'; 
+	src: url(../fonts/Pelinka-ExpandedExtraLight.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-ExtraLight'; 
+	src: url(../fonts/Pelinka-ExtraLight.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'Pelinka-ExtraLight'; 
+	src: url(../fonts/Pelinka-ExtraLight.otf)  format('truetype'); 
+}
+@font-face {
+	font-family: 'TrovasRegular-rgGOy'; 
+	src: url(../fonts/TrovasRegular-rgGOy.otf)  format('truetype'); 
+}
+
+
+/* zeroing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+/* header box */
+header{
+    height: 1288px;
+    max-width: 1680px;
+    width: 100%;
+    background: #030303;
+    position: relative;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+nav ul.header_menu{
+    width: 692px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+}
+ul.header_menu::before{
+    content: "";
+    position: absolute;
+    left: -509px;
+    top: 36px;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    height: 0px;
+    width: 495px;
+    max-width: 80.5%;
+    border-radius: 0px;
+}
+ul.header_menu::after{
+    content: "";
+    position: absolute;
+    right: -509px;
+    top: 36px;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    height: 0px;
+    width: 495px;
+    max-width: 80.5%;
+    border-radius: 0px;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'dance_partner';
+
+}
+li.header_menu__elements3 a{
+    height: 43.796295166015625px;
+    width: 114px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+	font-family: 'TrovasRegular-rgGOy' !important;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+
+}
+.elements3_1{
+    display: inline;
+    position: absolute;
+    top: 16px;
+    left: 33.5px;
+}
+/* background right red */
+.background_right{
+    height: 1030px;
+    width: 684px;
+    right: 0px;
+    top: 255px;
+    border-radius: 0px;
+    position: absolute;
+    transform: scale(1.5);
+    z-index: 1;
+}
+/* background left red */
+.background_left{
+    left: -511px;
+    top: 354px;
+    border-radius: 0px;
+    z-index: 100;
+}
+.header_left__border{
+    height: 0px;
+    width: 1220px;
+    right: -530px;
+    top: 680px;
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    transform: rotate(90deg);
+    z-index: 10;
+    position: absolute;
+}
+.header_right__border{
+    height: 0px;
+    width: 1220px;
+    left: -530px;
+    top: 680px;
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    transform: rotate(90deg);
+    z-index: 10;
+    position: absolute;
+    }
+.header_bottom__border{
+border: 0.5px solid rgba(255, 255, 255, 1);
+    height: 0px;
+    width: 1500px;
+    left: 88px;
+    top: 961px;
+    border-radius: 0px;
+    z-index: 10;
+    position: absolute;
+}
+/* header img ducks */
+.header_img__ducks{
+    height: 763px;
+    width: 392px;
+    right: 160px;
+    top: 196px;
+    border-radius: 0px;
+    position: absolute;
+    z-index: 100;
+}
+/* text_quack ducks */
+.text_quack__left{
+    height: 179px;
+    width: 726px;
+    left: 161px;
+    top: 190px;
+    border-radius: 0px;
+    position: absolute;
+	font-family: 'TrovasRegular-rgGOy'; 
+    font-size: 228px;
+    font-weight: 400;
+    line-height: 274px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.text_ducks__right{
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 801px;
+    height: 270px;
+    left: 353px;
+    top: 333px;
+    text-transform: uppercase;
+	font-family: 'TrovasRegular-rgGOy'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 228px;
+    line-height: 274px;
+    color: #FFFFFF;
+    z-index: 10;
+}
+/* seal img */
+.header_seal__img{
+    left: 789px;
+    top: 572px;
+    border-radius: 0px;
+    position: absolute;
+    height: 193px;
+    width: 259px;
+    z-index: 10;
+}
+.header_seal__text{
+    position: absolute;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 10;
+
+    font-family: Pelinka;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 20px;
+    width: 114px;
+    left: 864px;
+    top: 658px;  
+	font-family: 'Pelinka-CondensedExtraLight'; 
+}
+/* social__icons */
+.box_social__icons{
+    width: 74px;
+    height: 107px;
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_social__icons div a{
+    height: 35px;
+    width: 35px;
+    left: 22px;
+    top: 557px;
+    border-radius: 0px;
+    border: 0.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icon__twitter,
+.social_icon__discordion_icon{
+    height: 22px;
+width: 22px;
+left: 29px;
+top: 563px;
+border-radius: 0px;
+
+}
+
+/* <div class="box_social__icons">
+            <img src="/img/block_quackDucks/twitter_icon.png" alt="twitter_icon.png" class="social_icon__twitter">
+            <img src="/img/block_quackDucks/discordion_icon.png" alt="discordion_icon.png" class="social_icon__discordion_icon">
+        </div> */
