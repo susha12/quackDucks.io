@@ -80,7 +80,7 @@ function titleHeight () {
         sumTiTleRightTwo = sumTiTleRightTwo - 180;
         if(sumTiTleLeftTwo >= 550 || sumTiTleRightTwo <= 400){
             sumTiTleLeftTwo = 120;
-            sumTiTleRightTwo = 320;
+            sumTiTleRightTwo = 220;
             leftTitle.style.left = sumTiTleLeftTwo + "px";
             rightTitle.style.left = sumTiTleRightTwo + "px";
         }
@@ -97,7 +97,7 @@ function titleHeight () {
         sumTiTleRightThree = sumTiTleRightThree - 180;
         if(sumTiTleLeftThree >= 550 || sumTiTleRightThree <= 400){
             sumTiTleLeftThree = 120;
-            sumTiTleRightThree = 250;
+            sumTiTleRightThree = 150;
             console.log(sumTiTleLeftThree);
             console.log(sumTiTleRightThree);
             leftTitle.style.left = sumTiTleLeftThree + "px";
@@ -111,45 +111,45 @@ function titleHeight () {
         }
     }
 
-        // motion text header width >= 1000 = 880
-        else if(screen.width < 1000 && screen.width >= 880){
-            sumTiTleLeftFour = sumTiTleLeftFour + 50;
-            sumTiTleRightFour = sumTiTleRightFour - 120;
-            if(sumTiTleLeftFour >= 550 || sumTiTleRightFour <= 400){
-                sumTiTleLeftFour = 100;
-                sumTiTleRightFour =186;
-                console.log(sumTiTleLeftFour);
-                console.log(sumTiTleRightFour);
-                leftTitle.style.left = sumTiTleLeftFour + "px";
-                rightTitle.style.left = sumTiTleRightFour + "px";
-            }
-            else{
-                console.log(sumTiTleLeftFour);
-                console.log(sumTiTleRightFour);
-                leftTitle.style.left = sumTiTleLeftFour + "px";
-                rightTitle.style.left = sumTiTleRightFour + "px";
-            }
+    // motion text header width >= 1000 = 880
+    else if(screen.width < 1000 && screen.width >= 880){
+        sumTiTleLeftFour = sumTiTleLeftFour + 50;
+        sumTiTleRightFour = sumTiTleRightFour - 120;
+        if(sumTiTleLeftFour >= 550 || sumTiTleRightFour <= 400){
+            sumTiTleLeftFour = 100;
+            sumTiTleRightFour =186;
+            console.log(sumTiTleLeftFour);
+            console.log(sumTiTleRightFour);
+            leftTitle.style.left = sumTiTleLeftFour + "px";
+            rightTitle.style.left = sumTiTleRightFour + "px";
         }
+        else{
+            console.log(sumTiTleLeftFour);
+            console.log(sumTiTleRightFour);
+            leftTitle.style.left = sumTiTleLeftFour + "px";
+            rightTitle.style.left = sumTiTleRightFour + "px";
+        }
+    }
 
-                // motion text header width >=880
-                else if(screen.width < 880){
-                    sumTiTleLeftFive = sumTiTleLeftFive + 28;
-                    sumTiTleRightFive = sumTiTleRightFive - 101;
-                    if(sumTiTleLeftFive >= 550){
-                        sumTiTleLeftFive = 100;
-                        sumTiTleRightFive =6;
-                        console.log(sumTiTleLeftFive);
-                        console.log(sumTiTleRightFive);
-                        leftTitle.style.left = sumTiTleLeftFive + "px";
-                        rightTitle.style.left = sumTiTleRightFive + "px";
-                    }
-                    else{
-                        console.log(sumTiTleLeftFive);
-                        console.log(sumTiTleRightFive);
-                        leftTitle.style.left = sumTiTleLeftFive + "px";
-                        rightTitle.style.left = sumTiTleRightFive + "px";
-                    }
-                }
+    // motion text header width >=880
+    else if(screen.width < 880){
+        sumTiTleLeftFive = sumTiTleLeftFive + 28;
+        sumTiTleRightFive = sumTiTleRightFive - 101;
+        if(sumTiTleLeftFive >= 550){
+            sumTiTleLeftFive = 100;
+            sumTiTleRightFive =6;
+            console.log(sumTiTleLeftFive);
+            console.log(sumTiTleRightFive);
+            leftTitle.style.left = sumTiTleLeftFive + "px";
+            rightTitle.style.left = sumTiTleRightFive + "px";
+        }
+        else{
+            console.log(sumTiTleLeftFive);
+            console.log(sumTiTleRightFive);
+            leftTitle.style.left = sumTiTleLeftFive + "px";
+            rightTitle.style.left = sumTiTleRightFive + "px";
+        }
+    }
 
 
 
