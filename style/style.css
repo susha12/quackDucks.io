@@ -56,10 +56,10 @@ body{
 .header_background__border{
     width: 100%;
     position: absolute;
-    height: 2px;
     background-color: #FFFFFF;
     top: 36px;
-    border: 1px solid white;
+    height: 0.1px;
+    background-color: white;
 }
 
 /* header box */
@@ -94,8 +94,8 @@ ul.header_menu::before{
     content: "";
     position: absolute;
     top: 36px;
-    border: 1px solid rgba(255, 255, 255, 1);
-    height: 0px;
+background-color: #FFFFFF;
+    height: 0.1px;
     width: 100%;
     left: -709px;
     border-radius: 0px;
@@ -104,8 +104,8 @@ ul.header_menu::after{
     content: "";
     position: absolute;
     top: 36px;
-    border: 1px solid rgba(255, 255, 255, 1);
-    height: 0px;
+background-color: #FFFFFF;
+    height: 0.1px;
     width: 100%;
     right: -709px;
     border-radius: 0px;
@@ -172,23 +172,23 @@ li.header_menu__elements3 a{
 
 }
 .header_left__border{
-    height: 0px;
+    height: 0.1px;
+    background-color: white;
     width: 1220px;
     left: -520px;
     top: -240px;
     border-radius: 0px;
-    border: 1px solid rgba(255, 255, 255, 1);
     transform: rotate(90deg);
     z-index: 10;
     position: relative;
 }
 .header_right__border{
-    height: 0px;
+    height: 0.1px;
     width: 1220px;
     right: -518px;
     top: 646px;
     border-radius: 0px;
-    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #FFFFFF;
     transform: rotate(90deg);
     z-index: 10;
     position: absolute;
@@ -202,8 +202,8 @@ li.header_menu__elements3 a{
     margin: 0 auto;
 }
 .header_bottom__border{
-    border: 1px solid rgba(255, 255, 255, 1);
-    height: 0px;
+    background-color: #FFFFFF;
+    height: 0.1px;
     width: 87%;
     max-width: 1800px;
     margin: 0 auto;
@@ -451,7 +451,8 @@ li.header_menu__elements3 a{
     height: 599px;
 }
 .header_bottom__border{
-border: 1px solid rgba(255, 255, 255, 1);
+    height: 2px;
+    background-color: #FFFFFF;
     max-width: 1222px;
     width: 82%;
 }
