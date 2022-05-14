@@ -33,6 +33,25 @@ document.onwheel = function (event) {
     }
 }
 
+document.touchmove = function (event) {
+    // opacity duck img header
+    sum+=0.15;
+    imgDucks.style.opacity = sum ;
+    leftTitle.style.opacity = sum ;
+    rightTitle.style.opacity = sum ;
+    if (sum <= 1){
+        window.onscroll;
+        titleHeight ();
+        header.style.position = "fixed";
+    }
+    else if (sum > 1) {
+        window.onscroll = function () { window.scrollTo()};
+        header.style.position = "relative";
+        console.log(sum);
+        return;
+    }
+}
+
 // function title height
 
 // motion text header width >= 1750
