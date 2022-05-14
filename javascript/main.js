@@ -1,8 +1,5 @@
 // refresh page
-window.onload = function () { 
-    window.scrollTo(0, 0);
-    setTimeout(startfive, 1000);
-};
+
 
 // first block duck elements
 let imgDucks = document.querySelector(".header_img__ducks");
@@ -192,3 +189,7 @@ function startfive (){
 document.ontouchstart = startfive;
 document.onwheel = startfive;
 // document.onwheel = onwheelHeader;
+window.onload = function () { 
+    window.scrollTo(0, 0);
+    setTimeout(startfive, 300);
+};
