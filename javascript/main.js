@@ -1,5 +1,8 @@
 // refresh page
-window.onload = function () { window.scrollTo(0, 0); };
+window.onload = function () { 
+    window.scrollTo(0, 0);
+    setTimeout(startfive, 1000);
+};
 
 // first block duck elements
 let imgDucks = document.querySelector(".header_img__ducks");
