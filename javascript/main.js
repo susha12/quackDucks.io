@@ -14,7 +14,9 @@ let rightTitle = document.querySelector(".text_ducks__right");
 
 
 // funcion csroll
-document.onwheel = function (event) {
+
+
+function onwheelHeader (event) {
     // opacity duck img header
     sum+=0.15;
     imgDucks.style.opacity = sum ;
@@ -173,3 +175,6 @@ function titleHeight () {
 
 
 }
+
+document.ontouchstart = onwheelHeader;
+document.onwheel = onwheelHeader;
