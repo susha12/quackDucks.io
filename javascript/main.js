@@ -177,11 +177,12 @@ function titleHeight () {
 }
 
 function startfive (){
-    onwheelHeader();
-    onwheelHeader();
-    onwheelHeader();
-    onwheelHeader();
-    onwheelHeader();
+    setTimeout(onwheelHeader, 500);
+    setTimeout(onwheelHeader, 500);
+    setTimeout(onwheelHeader, 500);
+    setTimeout(onwheelHeader, 500);
+    setTimeout(onwheelHeader, 500);
+    setTimeout(onwheelHeader, 500);
 };
 
 document.ontouchstart = startfive;
