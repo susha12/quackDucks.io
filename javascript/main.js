@@ -187,4 +187,5 @@ function startfive (){
 };
 
 document.ontouchstart = startfive;
-document.onwheel = onwheelHeader;
+document.onwheel = startfive;
+// document.onwheel = onwheelHeader;
