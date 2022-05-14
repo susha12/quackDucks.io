@@ -176,5 +176,5 @@ function titleHeight () {
 
 }
 
-document.onpointermove = onwheelHeader;
+document.ontouchmove = onwheelHeader;
 document.onwheel = onwheelHeader;
