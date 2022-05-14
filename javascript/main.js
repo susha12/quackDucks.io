@@ -177,17 +177,17 @@ function titleHeight () {
 }
 
 function startfive (){
+    setTimeout(onwheelHeader, 50);
     setTimeout(onwheelHeader, 100);
+    setTimeout(onwheelHeader, 150);
     setTimeout(onwheelHeader, 200);
+    setTimeout(onwheelHeader, 250);
     setTimeout(onwheelHeader, 300);
-    setTimeout(onwheelHeader, 400);
-    setTimeout(onwheelHeader, 500);
-    setTimeout(onwheelHeader, 600);
-    setTimeout(onwheelHeader, 700);
+    setTimeout(onwheelHeader, 350);
 };
 
-document.ontouchstart = startfive;
-document.onwheel = startfive;
+// document.ontouchstart = startfive;
+// document.onwheel = startfive;
 // document.onwheel = onwheelHeader;
 window.onload = function () { 
     window.scrollTo(0, 0);
