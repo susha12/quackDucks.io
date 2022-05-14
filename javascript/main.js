@@ -135,9 +135,9 @@ function titleHeight () {
     else if(screen.width < 880){
         sumTiTleLeftFive = sumTiTleLeftFive + 28;
         sumTiTleRightFive = sumTiTleRightFive - 101;
-        if(sumTiTleLeftFive >= 550){
-            sumTiTleLeftFive = 100;
-            sumTiTleRightFive =6;
+        if(sumTiTleLeftFive >= 18){
+            sumTiTleLeftFive = 50;
+            sumTiTleRightFive =110;
             console.log(sumTiTleLeftFive);
             console.log(sumTiTleRightFive);
             leftTitle.style.left = sumTiTleLeftFive + "px";
