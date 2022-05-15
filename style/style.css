@@ -1036,6 +1036,7 @@ block welcome */
 }
 .section_one__welcome.active{
     height: 1200px; 
+
 }
 .welcome_title{
     height: 64px;
@@ -1084,25 +1085,23 @@ block welcome */
 }
 .welcome_text__box{
     height: 356px;
-    max-width: 507px;
-    left: 50px;
+    max-width: 337px;
+    left: 0px;
     position: relative;
-
-    top: 30px;
+    top: 20px;
 }
 .welcome_text__max{
     position: absolute;
     top: 0px;
     height: 356px;
-    max-width: 507px;
-    width: 80%;
+    width: 507px;
+    width: 100%;
     left: 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .wlecome_box__imgs{
