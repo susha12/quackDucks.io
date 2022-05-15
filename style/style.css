@@ -202,17 +202,19 @@ li.header_menu__elements3 a{
     transform: rotate(90deg);
     z-index: 10;
     position: relative;
+    
 }
 .header_right__border{
     height: 0.1px;
     width: 1220px;
     right: -518px;
-    top: 580px;
+    top: 620px;
     border-radius: 0px;
     background-color: #FFFFFF;
     transform: rotate(90deg);
     z-index: 10;
     position: absolute;
+
 }
 .header_content{
     width: 90.5%;
