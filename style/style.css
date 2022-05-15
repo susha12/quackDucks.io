@@ -470,7 +470,7 @@ block welcome */
     cursor: pointer;
     text-align: start;
 }
-/* .welcome_text__button::before{
+.welcome_text__button::before{
     content: "";
     position: absolute;
     right: -2px;
@@ -490,7 +490,7 @@ block welcome */
     width: 0px;
     border-radius: 0px;
     border: 1px solid rgba(255, 255, 255, 1);
-} */
+}
 .welcome_text__button.active::after{
     display: none;
 }
@@ -1115,7 +1115,7 @@ block welcome */
     margin-top: 40px;
     text-align: start;
 }
-/* .welcome_text__button::before{
+.welcome_text__button::before{
     right: 22px;
     top: 8px;
     width: 51px;
@@ -1124,7 +1124,7 @@ block welcome */
     right: 35px;
     top: -1px;
     height: 20px;
-} */
+}
 .welcome_text__box{
     height: 356px;
     max-width: 337px;
