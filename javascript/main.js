@@ -2,14 +2,14 @@
 let nav = document.querySelector("nav");
 
 // function scroll start work
-window.onscroll = function () {
-    if(window.scrollY > 500){
-        nav.classList.add("nav_black");
-    }
-    else if(window.scrollY <= 500){
-        nav.classList.remove("nav_black");
-    }
-};
+// window.onscroll = function () {
+//     if(window.scrollY > 500){
+//         nav.classList.add("nav_black");
+//     }
+//     else if(window.scrollY <= 500){
+//         nav.classList.remove("nav_black");
+//     }
+// };
 // block welcom histori opasity
 let welcomeButton = document.querySelector(".welcome_text__button");
 
