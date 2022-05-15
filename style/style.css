@@ -632,8 +632,6 @@ header{
 
 nav ul.header_menu{
     width: 466px;
-    border: 2px solid red;
-
 }
 ul.header_menu::before{
     left: -490px;
