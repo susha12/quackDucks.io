@@ -701,6 +701,13 @@ li.header_menu__elements3 a{
     left: 90%;
     top: 243px;
 }
+.welcome_text__box{
+    height: 482px;
+    width: 752px;
+    left: 52px;
+    position: relative;
+    display: none;
+}
 /* seal img */
 .header_seel{
     height: 155.5px;
@@ -769,7 +776,7 @@ block welcome */
 .welcome_text__max{
     position: absolute;
     top: 0px;
-    right: 22%;
+    right: 0%;
 
 }
 .wlecome_box__imgs{
@@ -1144,7 +1151,7 @@ img.welcome_box__arrow{
     display: none;
 }
 header{
-    top: 73px;
+    top: 0px !important;
 }
 }   
 @keyframes quack__left {
