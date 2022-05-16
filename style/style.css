@@ -989,7 +989,7 @@ nav{
 }
 /* social__icons */
 .box_social__icons{
-    width: 100px;
+    width: 80px;
     height: 50px;
     position: absolute;
     top: 20px;
@@ -1026,7 +1026,7 @@ nav{
     width: 322px;
     left: -20%;
     top: 78px;
-    font-size: 96px;
+    font-size: 80px;
     line-height: 115px;
     margin: 0 auto;
     position: absolute;
@@ -1035,8 +1035,8 @@ nav{
     height: 84px;
     width: 322px;
     left: 80%;
-    top: 136px;
-    font-size: 96px;
+    top: 126px;
+    font-size: 80px;
     line-height: 115px;
     position: absolute;
 }
@@ -1232,7 +1232,7 @@ header{
         opacity: 0.1;
     }
     100% {
-        left: 10px;
+        left: 30px;
         opacity: 1;
     }
 }      
@@ -1242,7 +1242,7 @@ header{
         opacity: 0.1;
     }
     100% {
-        left: 80px;
+        left: 100px;
         opacity: 1;
     }
 }
