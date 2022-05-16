@@ -823,6 +823,7 @@ header{
     height: 844px;
     width: 100%;
     width: 390px;
+	border: 2px solid red;
 }
 .header_background__border{
 display: none;
