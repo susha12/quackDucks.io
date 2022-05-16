@@ -859,7 +859,6 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 .header_bottom__border{
     display: none;
