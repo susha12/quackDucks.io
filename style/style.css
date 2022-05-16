@@ -897,7 +897,6 @@ header{
     height: 844px;
     width: 100%;
     width: 390px;
-    border: 2px solid red;
 }
 .header_background__border{
 display: none;
@@ -1054,7 +1053,6 @@ block welcome */
 .section_one__welcome
 {
     width: 390px;
-    border: 2px solid red;
 }
 .welcome_title__box{
     height: 90%;
