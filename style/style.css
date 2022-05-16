@@ -45,6 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     width: 100%;
     z-index: -100;
     position: relative;
@@ -862,15 +863,46 @@ img.welcome_box__arrow{
 }
 
 }
-  /* max-width 880px */
-@media screen and (max-width: 880px) {
+ 
+
+@media screen and (max-width: 1000px) {
+.text_quack__left{  
+    height: 84px;
+    width: 322px;
+    left: -18%;
+    top: 148px;
+    font-size: 96px;
+    line-height: 115px;
+    position: absolute;
+}
+.text_ducks__right{
+    height: 84px;
+    width: 322px;
+    left: 86%;
+    top: 206px;
+    font-size: 96px;
+    line-height: 115px;
+    position: absolute;
+}
+}
+/* max-width 880px */
+ /* max-width 880px */
+ @media screen and (max-width: 880px) {
+    /* body{
+        min-width: 390px;
+    } */
 /* header box */
+
 header{
     height: 844px;
     width: 100%;
-    min-width: 390px;
+    width: 390px;
+    border: 2px solid red;
 }
+.header_background__border{
+display: none;
 
+}
 nav{
     display: none;
 }
@@ -931,26 +963,7 @@ nav{
     font-size: 96px;
     line-height: 115px;
 }
-@keyframes quack__left {
-    0% {
-        left: -250px;
 
-    }
-    100% {
-        left: 80px;
-        opacity: 1;
-    }
-}      
-@keyframes ducks__right {
-    0% {
-        left: 87%;
-
-    }
-    100% {
-        left: 160px;
-        opacity: 1;
-    }
-}
 /* seal img */
 .header_seel{
     left: 37%;
@@ -997,30 +1010,7 @@ nav{
     height: 36px;
     width: auto;
 }
-} 
 
-@media screen and (max-width: 1000px) {
-.text_quack__left{  
-    height: 84px;
-    width: 322px;
-    left: -18%;
-    top: 148px;
-    font-size: 96px;
-    line-height: 115px;
-    position: absolute;
-}
-.text_ducks__right{
-    height: 84px;
-    width: 322px;
-    left: 86%;
-    top: 206px;
-    font-size: 96px;
-    line-height: 115px;
-    position: absolute;
-}
-}
-/* max-width 880px */
-@media screen and (max-width: 880px) {
 /* header img ducks */
 .header_img__ducks{
     left: 22%;
@@ -1061,6 +1051,11 @@ nav{
 }
 /* 
 block welcome */
+.section_one__welcome
+{
+    width: 390px;
+    border: 2px solid red;
+}
 .welcome_title__box{
     height: 90%;
     width: 100%;
@@ -1230,6 +1225,25 @@ img.welcome_box__arrow{
 header{
     top: 0px;
 }
+}   
+@keyframes quack__left {
+    0% {
+        left: -350px;
+        opacity: 0.1;
+    }
+    100% {
+        left: 10px;
+        opacity: 1;
+    }
+}      
+@keyframes ducks__right {
+    0% {
+        left: 87%;
+        opacity: 0.1;
+    }
+    100% {
+        left: 80px;
+        opacity: 1;
+    }
 }
-
 /* end one block */
