@@ -823,15 +823,14 @@ header{
     height: 844px;
     width: 100%;
     width: 390px;
-	border: 2px solid red;
 }
 .header_background__border{
 display: none;
 
 }
-nav{
+/* nav{
     display: none;
-}
+} */
 /* background right red */
 .background_right{
     height: auto;
@@ -1139,9 +1138,9 @@ img.welcome_box__arrow{
     display: flex;
     flex-direction: row;
 }
-.big_menu{
+/* .big_menu{
     display: none;
-}
+} */
 header{
     top: 0px;
 }
