@@ -254,7 +254,7 @@ li.header_menu__elements3 a{
     text-transform: uppercase;
     z-index: 10;
     opacity: 0.1;
-    animation: quack__left 4s;
+    animation: duack__left_max 4s;
     animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode:both;
@@ -277,28 +277,28 @@ li.header_menu__elements3 a{
     color: #FFFFFF;
     z-index: 10;
     opacity: 0.1;
-    animation: ducks__right 4s;
+    animation: ducks__right_max 4s;
     animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode:both;
 }
-@keyframes quack__left {
+@keyframes duack__left_max {
     0% {
         left: -650px;
         opacity: 0.1;
     }
     100% {
-        left: 250px;
+        left: 120px;
         opacity: 1;
     }
 }      
-@keyframes ducks__right {
+@keyframes ducks__right_max {
     0% {
         left: 87%;
         opacity: 0.1;
     }
     100% {
-        left: 450px;
+        left: 300px;
         opacity: 1;
     }
 }
@@ -644,24 +644,7 @@ li.header_menu__elements3 a{
     right: -330px;
     top: 430px;
 }
-@keyframes quack__left {
-    0% {
-        left: -650px;
-    }
-    100% {
-        left: 200px;
-        opacity: 1;
-    }
-}      
-@keyframes ducks__right {
-    0% {
-        left: 87%;
-    }
-    100% {
-        left: 320px;
-        opacity: 1;
-    }
-}
+
 .header_content{
     width: 84%;
     height: 599px;
@@ -677,29 +660,45 @@ li.header_menu__elements3 a{
     right: 8%;
     height: 599px;
     width: 308px;
-    top: 144px;
+    top: 68px;
 }
 /* text_quack ducks */
 .text_quack__left{  
-    line-height: 274px;
     height: 161px;
     width: 531px;
     top: 147px;
     left: -330px;
     font-size: 148px;
-    line-height: 178px;
-    letter-spacing: 0em;
-    text-align: left;
+    animation: ducks__left_center 4s;
+    animation-fill-mode:both;
 }
 .text_ducks__right{
     font-size: 148px;
-    line-height: 178px;
-    letter-spacing: 0em;
-    text-align: left;
     height: 155px;
     width: 478px;
     left: 90%;
     top: 243px;
+    animation: ducks__right_center 4s;
+    animation-fill-mode:both;
+}
+
+@keyframes ducks__left_center  {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 100px;
+        opacity: 1;
+    }
+}      
+@keyframes ducks__right_center {
+    0% {
+        left: 87%;
+    }
+    100% {
+        left: 230px;
+        opacity: 1;
+    }
 }
 .welcome_text__box{
     height: 482px;
@@ -962,6 +961,8 @@ nav{
     line-height: 115px;
     margin: 0 auto;
     position: absolute;
+    animation: duack__left_min 4s;
+    animation-fill-mode:both;
 }
 .text_ducks__right{
     height: 84px;
@@ -971,7 +972,10 @@ nav{
     font-size: 80px;
     line-height: 115px;
     position: absolute;
+    animation: ducks__right_min 4s;
+    animation-fill-mode:both;
 }
+
 /* seal img */
 .header_seel{
     left: 30%;
@@ -1154,9 +1158,11 @@ header{
     top: 0px !important;
 }
 }   
-@keyframes quack__left {
+/* text_quack ducks */
+
+@keyframes duack__left_min {
     0% {
-        left: -350px;
+        left: -250px;
         opacity: 0.1;
     }
     100% {
@@ -1164,7 +1170,7 @@ header{
         opacity: 1;
     }
 }      
-@keyframes ducks__right {
+@keyframes ducks__right_min {
     0% {
         left: 87%;
         opacity: 0.1;
