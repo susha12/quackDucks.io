@@ -58,7 +58,6 @@ body{
     height: 0.1px;
     position: sticky;
     z-index: 1;
-
 }
 nav.big_menu{
     position: sticky;
@@ -66,8 +65,7 @@ nav.big_menu{
     z-index: 100;
     width: 100%;
     max-width: 1840px;
-background: #030303;
-
+    background: #030303;
 }
 .big_menu__border{
     width: 100%;
@@ -79,17 +77,14 @@ background: #030303;
 /* header box */
 header{
     height: 1288px;
-    /* max-width: 1680px; */
     width: 100%;
     max-width: 1920px;
     background: #030303;
     position: relative;
-    /* margin: 0px auto; */
     overflow: hidden;
     position: sticky;
     top: 73px;
     z-index: 1;
-    
 }
 nav{
     width: 100%;
@@ -102,9 +97,6 @@ nav{
     background: #03030300;
 }
 /* menu add class */
-/* nav.nav_black{
-    background-color: rgb(0, 0, 0);
-} */
 nav ul.header_menu{
     width: 710px;
     height: 100%;
@@ -114,30 +106,7 @@ nav ul.header_menu{
     z-index: 10;
     position: relative;
     background-color: black;
-
 }
-/* ul.header_menu::before{
-    content: "";
-    position: absolute;
-    top: 36px;
-    background-color: #FFFFFF;
-    height: 0.1px;
-    width: 80%;
-    left: -570px;
-    border-radius: 0px;
-
-}
-ul.header_menu::after{
-    content: "";
-    position: absolute;
-    top: 36px;
-background-color: #FFFFFF;
-    height: 0.1px;
-    width: 80%;
-    right: -570px;
-    border-radius: 0px;
-
-} */
 nav ul li{
     list-style-type: none;
 }
@@ -198,7 +167,6 @@ li.header_menu__elements3 a{
     z-index: 1;
     position: absolute;
     filter: blur(10px);
-
 }
 .header_left__border{
     height: 0.1px;
@@ -210,7 +178,6 @@ li.header_menu__elements3 a{
     transform: rotate(90deg);
     z-index: 10;
     position: relative;
-    
 }
 .header_right__border{
     height: 0.1px;
@@ -222,7 +189,6 @@ li.header_menu__elements3 a{
     transform: rotate(90deg);
     z-index: 10;
     position: absolute;
-
 }
 .header_content{
     width: 90.5%;
@@ -405,7 +371,7 @@ block welcome */
     width: 100%;
     position: relative;
     top: -250px;
-    background-color:#3535358c;
+    background:#3535358c;
     box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.25);
     box-shadow: 0px 4px 60px 0px rgba(255, 255, 255, 0.25) inset;
     backdrop-filter: blur(50px);
@@ -535,15 +501,12 @@ block welcome */
     justify-content: space-between;
     cursor: pointer;
     top: 0px;
-
 }
 /* slider effects */
 .gaalery{
     height: 660px;
     position: relative;
-top: 50px;
-
-
+    top: 50px;
 }
 .container {
     position: relative;
@@ -591,26 +554,12 @@ top: 50px;
     display: flex;
     flex-direction: row;
 }
-/* .arrow_back__buton{
-    width: 42%;
-    height: 100%;
-    margin-right: 8%;
-    cursor: pointer;
-} */
 img.welcome_box__arrow{
     position: absolute;
     top: -44px;
     left: 0px;
     z-index: -1;
 }
-/* .arrow_next__buton{
-    width: 44%;
-    margin-left: 6%;
-    height: 100%;
-    z-index: 1;
-    cursor: pointer;
-
-} */
 
 /* max-width 1880px */
 @media screen and (max-width: 1880px) {
@@ -622,14 +571,6 @@ block welcome */
 .welcome_box__arrow{
     top:35px;
 }
-/* ul.header_menu::before{
-    width: 77%;
-    left: -575px;
-}
-ul.header_menu::after{
-    width: 57%;
-    right: -385px;
-} */
 }
 
 /* max-width 1400px */
@@ -641,16 +582,9 @@ header{
     width: 100%;
     max-width: 1920px;
 }
-
 nav ul.header_menu{
     width: 466px;
 }
-/* ul.header_menu::before{
-    left: -490px;
-}
-ul.header_menu::after{
-    right: -490px;
-} */
 nav ul li{
     list-style-type: none;
 }
@@ -668,17 +602,6 @@ li.header_menu__elements3 a{
     top: 16px;
     left: 33.5px;
 }
-/* ul.header_menu::before{
-    width: 42%;
-    left: -200px;
-    background-color: #03030300;
-
-}
-ul.header_menu::after{
-    background-color: #03030300;
-    width: 42%;
-    right: -200px;
-} */
 /* background right red */
 .background_right{
     transform: scale(1);
@@ -703,12 +626,10 @@ ul.header_menu::after{
     width: 821px;
     right: -330px;
     top: 430px;
-
 }
 @keyframes quack__left {
     0% {
         left: -650px;
-
     }
     100% {
         left: 200px;
@@ -718,7 +639,6 @@ ul.header_menu::after{
 @keyframes ducks__right {
     0% {
         left: 87%;
-
     }
     100% {
         left: 320px;
@@ -803,7 +723,6 @@ ul.header_menu::after{
     height: 22px;
     width: 22px;
 }
-
 /* 
 block welcome */
 .section_one__welcome{
@@ -829,7 +748,6 @@ block welcome */
     padding-left: 10px;
     margin-top: 100px;
     left: 20%;
-
 }
 .welcome_text__max{
     position: absolute;
@@ -852,7 +770,6 @@ block welcome */
     top: 0px;
     width: 90%;
     margin: 0px auto;
-
 }
 .box{
     height: 600px;
@@ -864,10 +781,7 @@ img.welcome_box__arrow{
     left: 0px;
     z-index: -1;
 }
-
 }
- 
-
 @media screen and (max-width: 1000px) {
 .text_quack__left{  
     height: 84px;
@@ -888,14 +802,9 @@ img.welcome_box__arrow{
     position: absolute;
 }
 }
-/* max-width 880px */
  /* max-width 880px */
  @media screen and (max-width: 880px) {
-    /* body{
-        min-width: 390px;
-    } */
 /* header box */
-
 header{
     height: 844px;
     width: 100%;
@@ -965,7 +874,6 @@ nav{
     font-size: 96px;
     line-height: 115px;
 }
-
 /* seal img */
 .header_seel{
     left: 37%;
@@ -1066,7 +974,6 @@ block welcome */
     justify-content: space-around;
     position: relative;
     top: 4%;
-    /* border: 1px solid red; */
 }
 .section_one__welcome{
     height: 944px; 
@@ -1074,7 +981,6 @@ block welcome */
 }
 .section_one__welcome.active{
     height: 1200px; 
-
 }
 .welcome_title{
     height: 64px;
@@ -1141,7 +1047,6 @@ block welcome */
     letter-spacing: 0em;
     text-align: left;
 }
-
 .wlecome_box__imgs{
     width: 90%;
 }
@@ -1173,7 +1078,6 @@ img.welcome_box__arrow{
 }
 /* welcome_text__box active */
 /* slider effects */
-
 .container {
     position: relative;
     display: flex;
@@ -1181,34 +1085,34 @@ img.welcome_box__arrow{
     padding: 0% 0%;
     box-sizing: border-box;
     height: 336px;
-  }
-  .box {
+}
+.box {
     flex: 1;
     overflow: hidden;
     transition: .5s;
     margin: 0 0.5%;
     line-height: 0;
     height: 335px;
-  }
+}
 
-  .box > img {
+.box > img {
     border: 2px solid rgb(188, 188, 188);
     width: 75%;
     height: calc(100%);
     object-fit: cover; 
     transition: .5s;
-  }
-  .box:hover { flex: 1 1 50%; }
-  .box:hover > img {
+}
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
     width: 100%;
     height: 100%;
-  }
-  .sec_gar{
+}
+.sec_gar{
     margin: 0 auto;
 	max-width: 700px;
 	max-height: 100vh;
 	background-color: white;
-  }
+}
 .welcome_box__arrow{
     height: auto;
     width: 322px;
