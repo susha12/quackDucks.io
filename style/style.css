@@ -696,7 +696,7 @@ li.header_menu__elements3 a{
         left: 87%;
     }
     100% {
-        left: 230px;
+        left: 220px;
         opacity: 1;
     }
 }
@@ -811,7 +811,7 @@ img.welcome_box__arrow{
     width: 322px;
     left: -18%;
     top: 148px;
-    font-size: 96px;
+    font-size: 110px;
     line-height: 115px;
     position: absolute;
 }
@@ -819,8 +819,8 @@ img.welcome_box__arrow{
     height: 84px;
     width: 322px;
     left: 86%;
-    top: 206px;
-    font-size: 96px;
+    top: 216px;
+    font-size: 110px;
     line-height: 115px;
     position: absolute;
 }
