@@ -542,6 +542,8 @@ block welcome */
     height: 660px;
     position: relative;
 top: 50px;
+
+
 }
 .container {
     position: relative;
@@ -850,6 +852,7 @@ block welcome */
     top: 0px;
     width: 90%;
     margin: 0px auto;
+
 }
 .box{
     height: 600px;
@@ -897,6 +900,7 @@ header{
     height: 844px;
     width: 100%;
     width: 390px;
+    border: 2px solid red;
 }
 .header_background__border{
 display: none;
@@ -1053,6 +1057,7 @@ block welcome */
 .section_one__welcome
 {
     width: 390px;
+    border: 2px solid red;
 }
 .welcome_title__box{
     height: 90%;
@@ -1144,9 +1149,9 @@ block welcome */
 }
 /* slider effects */
 .gaalery{
-    height: 600px;
+    height: 350px;
     position: relative;
-    top: 100px;
+    top: 0px;
 }
 .box img{
     height: 600px;
@@ -1169,9 +1174,7 @@ img.welcome_box__arrow{
 }
 /* welcome_text__box active */
 /* slider effects */
-.gaalery{
-    top: 0px;
-}
+
 .container {
     position: relative;
     display: flex;
