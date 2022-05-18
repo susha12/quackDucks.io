@@ -708,6 +708,7 @@ img.welcome_box__arrow{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 100;
 }
 .content_body_textBox_one{
     display: none;
