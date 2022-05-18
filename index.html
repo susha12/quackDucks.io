@@ -12,6 +12,8 @@
 
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
     <title>QUACK DUCKS</title>
 </head>
 <body>
@@ -133,9 +135,11 @@
                 <h2 class="faction_content__title">factions</h2>
                 <div class="faction_content_body">
                     <div class="content_body_ducks">
-                        <div class="ducks_block_one" onclick="duck_play(0)"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img"></div>
-                        <div class="ducks_block_one active" onclick="duck_play(1)"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img active"></div>
-                        <div class="ducks_block_one" onclick="duck_play(2)"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img"></div>
+                        <div class="button_left_duck"></div>
+                        <div class="ducks_block_one one"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img"></div>
+                        <div class="ducks_block_one two active"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img active"></div>
+                        <div class="ducks_block_one three"><img src="img/block_factions/duck_factions.webp" alt="duck_factions" class="ducks_block_one_img"></div>
+                        <div class="button_right_duck"></div>
                     </div> 
 
                  <div class="content_body_textBox">
@@ -175,7 +179,8 @@
 
 
 
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="javascript/main.js"></script>
+
 </body>
 </html>
