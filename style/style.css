@@ -632,20 +632,63 @@ img.welcome_box__arrow{
     justify-content: space-between;
     align-items: center;
 }
+.button_left_duck{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 100;
+}
+.button_right_duck{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    /* border: 2px solid gold; */
+    cursor: pointer;
+    z-index: 100;
+}
 .ducks_block_one{
+    position: relative;
     height: 469px;
     width: 330px;
     border-radius: 231px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 1.3s, height 1.3s, background-color 1.3s, transform 1.3s, left 1.3s;
 }
-.ducks_block_one.active{
-    height: 469px;
-    width: 338px; 
+/* slider animation one */
+.ducks_block_one.one{
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+.ducks_block_one.two{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+.ducks_block_one.three{
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+.ducks_block_one.active{ 
     border-radius: 260px;
-    border: 1px solid rgba(142, 14, 14, 1)
+    height: 510px;
+    width: 370px;
+    top: 10%;
+    border: 1px solid rgba(142, 14, 14, 1);
+    transform:scale(1.2);
+
+
 }
+
 .ducks_block_one_img{
     height: 469px;
     width: 330px;
@@ -654,10 +697,7 @@ img.welcome_box__arrow{
 
 }
 .ducks_block_one_img.active{
-    height: 657px;
-    width: 462px;
     border-radius: 231px;
-
 }
 .content_body_textBox{
     width: 676px;
