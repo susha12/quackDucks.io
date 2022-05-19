@@ -1081,7 +1081,7 @@ img.welcome_box__arrow{
     height: 469px;
     width: 338px;
     top: -4%;
-    } 
+     
 }
 .ducks_block_one_img{
     height: 276px;
@@ -1542,11 +1542,12 @@ header{
 }
 .ducks_block_one{
     height: 469px;
-    width: 330px;
+    width: 300px;
     border-radius: 231px;
     display: flex;
     justify-content: center;
     align-items: center;
+
    
 
 }
@@ -1570,16 +1571,10 @@ header{
     left: 58%;
     height: auto;
     width: 272px;
-        top: 27%;
+    top: 27%;
 }
-/* .ducks_block_one.one img, */
-.ducks_block_one.two img
-/* .ducks_block_one.three img{ */
-    {
-    height: auto;
-width: 262px;
 
-}
+
 .ducks_block_one.three{
     left: 128%;
     height: auto;
