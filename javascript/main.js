@@ -64,8 +64,8 @@ let permissionSmall = 880;
 let newNumber = 0;
 let newNumberOne = 0;
 ducksImgBack.onclick = ()=>{
-            ducksImgBack.style.height = '0%';
-        setTimeout(function () { ducksImgBack.style.height = '25%'; }, 1000);
+            ducksImgBack.style.display = 'none';;
+        setTimeout(function () { ducksImgBack.style.display = 'flex'; }, 1000);
         newNumberNull ();
         if(window.outerWidth > permissionLarge &&  window.outerWidth < permissionBig){
 
@@ -165,8 +165,8 @@ ducksImgBack.onclick = ()=>{
 
 ducksImgNext.onclick = ()=>{
         newNumberOneNull ();
-            ducksImgNext.style.height = '0%';
-        setTimeout(function () { ducksImgNext.style.height = '25%'; }, 1000);
+            ducksImgNext.style.display = 'none';
+        setTimeout(function () { ducksImgNext.style.display = 'flex'; }, 1000);
         if(window.outerWidth > permissionLarge &&  window.outerWidth < permissionBig){
 
                 numberZero = 0 +"%";
