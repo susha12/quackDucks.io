@@ -75,36 +75,32 @@ ducksImgBack.onclick = ()=>{
                 numberTwo = 74 +"%";
         }
         else if(window.outerWidth <= permissionLarge &&  window.outerWidth >= permissionMedium){
-                console.log(window.outerWidth);
                  numberZero = 0 +"%";
                  numberOne = 34 +"%";
                  numberTwo = 77 +"%";
-
         }
         else if(window.outerWidth < permissionMedium  &&  window.outerWidth > permissionSmall){
-                console.log(window.outerWidth);
                  numberZero = 0 +"%";
                  numberOne = 33 +"%";
                  numberTwo = 77 +"%";
-                 console.log(window.outerWidth);
         }
         else if(window.outerWidth <= permissionSmall){
                 if (newNumber == 0){
                         numberZero = -21 +"%";
-                        numberOne = 65 +"%";
+                        numberOne = 60 +"%";
                         numberTwo = 129 +"%";
                         newNumber ++;
                 }
                 else if (newNumber == 1){
-                        numberZero = -5 +"%";
+                        numberZero = -10 +"%";
                         numberOne = 59 +"%";
-                        numberTwo = 139 +"%";
+                        numberTwo = 138 +"%";
                         newNumber ++;
                 }
                 else if(newNumber == 2){
-                        numberZero = -10 +"%";
+                        numberZero = -9 +"%";
                         numberOne = 59 +"%";
-                        numberTwo = 135 +"%";
+                        numberTwo = 130 +"%";
                         newNumber = 0;
                 }    
         }
@@ -175,36 +171,33 @@ ducksImgNext.onclick = ()=>{
                 numberTwo = 74 +"%";
         }
         else if(window.outerWidth <= permissionLarge &&  window.outerWidth >= permissionMedium){
-                console.log(window.outerWidth);
                  numberZero = 0 +"%";
                  numberOne = 34 +"%";
                  numberTwo = 77 +"%";
 
         }
         else if(window.outerWidth < permissionMedium  &&  window.outerWidth > permissionSmall){
-                console.log(window.outerWidth);
                  numberZero = 0 +"%";
                  numberOne = 33 +"%";
                  numberTwo = 77 +"%";
-                 console.log(window.outerWidth);
         }
         else if(window.outerWidth <= permissionSmall){
                 if (newNumberOne == 0){
-                        numberZero = -5 +"%";
+                        numberZero = -10 +"%";
                         numberOne = 58 +"%";
                         numberTwo = 137 +"%";
                         newNumberOne ++;
                 }
                 else if (newNumberOne == 1){
-                        numberZero = -21 +"%";
-                        numberOne = 64 +"%";
+                        numberZero = -20 +"%";
+                        numberOne = 60 +"%";
                         numberTwo = 129 +"%";
                         newNumberOne ++;
                 }
                 else if(newNumberOne == 2){
-                        numberZero = -10 +"%";
-                        numberOne = 60 +"%";
-                        numberTwo = 135 +"%";
+                        numberZero = -9 +"%";
+                        numberOne = 59 +"%";
+                        numberTwo = 130 +"%";
                         newNumberOne = 0;
                 }    
         }
@@ -267,40 +260,25 @@ ducksImgNext.onclick = ()=>{
 
 function newNumberNull (){
         if(newNumber == 0){
-                newNumberOne = 2;
-
-                console.log(newNumber)  
-                console.log(newNumberOne)     
+                newNumberOne = 2;    
         }
         else if(newNumber == 1){
-                newNumberOne = 1; 
- 
-                console.log(newNumber) 
-                console.log(newNumberOne)    
+                newNumberOne = 1;    
              }
         else if(newNumber == 2){
-                newNumberOne = 1;
-
-                console.log(newNumber) 
-                console.log(newNumberOne)      
+                newNumberOne = 1;     
         }
 };
 
 function newNumberOneNull (){
         if(newNumberOne == 0){
            newNumber = 2;    
-           console.log(newNumberOne) 
-           console.log(newNumber) 
         }
         else if(newNumberOne == 1){
-                newNumber = 2; 
-                console.log(newNumberOne) 
-                console.log(newNumber)     
+                newNumber = 2;      
              }
         else if(newNumberOne == 2){
         newNumber = 0; 
-        console.log(newNumberOne) 
-        console.log(newNumber)     
         }
 };
 
