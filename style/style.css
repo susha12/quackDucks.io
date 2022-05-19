@@ -1552,6 +1552,7 @@ header{
 
     height: 510px;
     width: 370px;
+    padding: 2px;
 
 
 }
@@ -1578,9 +1579,9 @@ width: 262px;
 
 }
 .ducks_block_one.three{
-    left: 136%;
+    left: 128%;
     height: auto;
-    width: 222px;
+    width: 268px;
         top: 27%;
 
 }
@@ -1613,12 +1614,12 @@ width: 262px;
 
 .ducks_block_one_img{
 
-        margin-top: 50px;
-}
+        margin: 5px;
+} 
 .ducks_block_one_img.active{
     height: 393px;
-    width: 277px;
-    margin-top: 0px;
+    width: 258px;
+
 }
 .content_body_textBox{
     width: 300px;
