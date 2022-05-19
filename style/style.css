@@ -668,7 +668,7 @@ img.welcome_box__arrow{
     border-radius: 260px;
     height: 510px;
     width: 370px;
-    top: 10%;
+    top: 11%;
     border: 1px solid rgba(142, 14, 14, 1);
     transform:scale(1.2);
 
@@ -1079,7 +1079,9 @@ img.welcome_box__arrow{
 }
 .ducks_block_one.active{
     height: 469px;
-    width: 338px; 
+    width: 338px;
+    top: -4%;
+    } 
 }
 .ducks_block_one_img{
     height: 276px;
@@ -1553,7 +1555,7 @@ header{
     height: 510px;
     width: 370px;
     padding: 2px;
-
+    top: 21%;
 
 }
 .ducks_block_one.one{
@@ -1662,4 +1664,6 @@ width: 262px;
 
 
 }
+
+
 
