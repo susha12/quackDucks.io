@@ -1364,7 +1364,7 @@ img.welcome_box__arrow{
 /* header box */
 header{
     height: 844px;
-    width: 100%;
+    /* width: 100%; */
     width: 390px;
 }
 .header_background__border{
@@ -1480,7 +1480,7 @@ nav{
 
 /* header img ducks */
 .header_img__ducks{
-    left: 22%;
+    left: 19%;
     height: 599px;
     width: 308px;
     top: 244px;
@@ -1500,7 +1500,7 @@ nav{
 }
 .text_ducks__right{
     height: 84px;
-    width: 322px;
+    width: 250px;
     left: 80%;
     top: 126px;
     font-size: 80px;
@@ -1525,7 +1525,8 @@ nav{
 block welcome */
 .section_one__welcome
 {
-    width: 390px;
+    /* width: 390px; */
+    width: 380px;
 }
 .welcome_title__box{
     height: 90%;
@@ -1875,7 +1876,7 @@ header{
     width: 390px;
     background: rgba(255, 245, 245, 1);
 
-    top: 60px;
+    top: 50px;
 }
 .vision_small__window{
     max-width: 100%;
