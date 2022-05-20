@@ -85,26 +85,12 @@ ducksImgBack.onclick = ()=>{
                  numberTwo = 77 +"%";
         }
         else if(window.outerWidth <= permissionSmall){
-                if (newNumber == 0){
-                        numberZero = -21 +"%";
-                        numberOne = 60 +"%";
-                        numberTwo = 129 +"%";
-                        newNumber ++;
-                }
-                else if (newNumber == 1){
-                        numberZero = -10 +"%";
-                        numberOne = 59 +"%";
-                        numberTwo = 138 +"%";
-                        newNumber ++;
-                }
-                else if(newNumber == 2){
-                        numberZero = -9 +"%";
-                        numberOne = 59 +"%";
-                        numberTwo = 130 +"%";
-                        newNumber = 0;
-                }    
+                        numberZero = -12 +"%";
+                        numberOne = 58 +"%";
+                        numberTwo = 128 +"%";
+   
         }
-
+        newNumber ++; 
         if (caruselBack == 0){
                 for(let i = 0; i < 3; i++){
                         ducksImg[i].classList.remove('active');
@@ -153,9 +139,9 @@ ducksImgBack.onclick = ()=>{
                 ducksBlock[2].style.left = numberTwo;
                 caruselBack = 0;
         }
-        numberZero = 0 +"%";
-        numberOne = 40 +"%";
-        numberTwo = 80 +"%";
+        // numberZero = 0 +"%";
+        // numberOne = 40 +"%";
+        // numberTwo = 80 +"%";
         caruselkNull ();
 
 }
@@ -182,26 +168,12 @@ ducksImgNext.onclick = ()=>{
                  numberTwo = 77 +"%";
         }
         else if(window.outerWidth <= permissionSmall){
-                if (newNumberOne == 0){
-                        numberZero = -10 +"%";
-                        numberOne = 58 +"%";
-                        numberTwo = 137 +"%";
-                        newNumberOne ++;
-                }
-                else if (newNumberOne == 1){
-                        numberZero = -20 +"%";
-                        numberOne = 60 +"%";
-                        numberTwo = 129 +"%";
-                        newNumberOne ++;
-                }
-                else if(newNumberOne == 2){
-                        numberZero = -9 +"%";
-                        numberOne = 59 +"%";
-                        numberTwo = 130 +"%";
-                        newNumberOne = 0;
-                }    
-        }
+                numberZero = -12 +"%";
+                numberOne = 58 +"%";
+                numberTwo = 128 +"%";
 
+        }
+        newNumberOne ++;
         if (carusel == 0){
                 for(let i = 0; i < 3; i++){
                         ducksImg[i].classList.remove('active');
@@ -250,12 +222,13 @@ ducksImgNext.onclick = ()=>{
                 ducksBlock[2].style.left = numberTwo;
                 carusel = 0;
         }
-        numberZero = 0 +"%";
-        numberOne = 40 +"%";
-        numberTwo = 80 +"%";
+        // numberZero = 0 +"%";
+        // numberOne = 40 +"%";
+        // numberTwo = 80 +"%";
         caruselBackNull ();
 
 }
+
 
 
 function newNumberNull (){
