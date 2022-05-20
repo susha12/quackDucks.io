@@ -31,6 +31,20 @@ function clickEventOut (a) {
 }
 
 
+// header display:none
+const header = document.querySelector("header");
+
+
+window.onscroll = function () { 
+        console.log(sectionOneWelcome.getBoundingClientRect());
+        if (window.outerWidth <= 880 && sectionOneWelcome.getBoundingClientRect().y <= -48){
+                header.style.display = "none";
+                
+        }
+        else{
+                header.style.display = "flex";
+        }
+    };
 
 
 
