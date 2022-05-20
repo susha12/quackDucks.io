@@ -1659,7 +1659,7 @@ img.welcome_box__arrow{
 }
 
 .box > img {
-    border: 2px solid rgb(188, 188, 188);
+
     width: 75%;
     height: calc(100%);
     object-fit: cover; 
@@ -1952,6 +1952,3 @@ header{
     text-align: center;
 }
 }
-
-
-
