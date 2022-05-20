@@ -63,7 +63,8 @@ let permissionMedium = 1000;
 let permissionSmall = 880;
 let newNumber = 0;
 let newNumberOne = 0;
-ducksImgBack.onclick = ()=>{
+ducksImgBack.onclick = ducksImgSliderBack ();
+function ducksImgSliderBack () {
 
         newNumberNull ();
         ducksImgBack.style.display = "none";
@@ -146,7 +147,8 @@ ducksImgBack.onclick = ()=>{
 
 }
 
-ducksImgNext.onclick = ()=>{
+ducksImgNext.onclick = ducksImgSliderNext ();
+function ducksImgSliderNext () {
         newNumberOneNull ();
             ducksImgNext.style.display = "none";
         setTimeout(function () { ducksImgNext.style.display = "flex"; }, 1000);
@@ -230,28 +232,39 @@ ducksImgNext.onclick = ()=>{
 }
 
 
-
 function newNumberNull (){
         if(newNumber == 0){
-                newNumberOne = 2;    
+                newNumberOne = 2;
+                console.log(newNumber)
+                console.log(newNumberOne)    
         }
         else if(newNumber == 1){
-                newNumberOne = 1;    
+                newNumberOne = 1;
+                console.log(newNumber)
+                console.log(newNumberOne)    
              }
         else if(newNumber == 2){
-                newNumberOne = 1;     
+                newNumberOne = 0;
+                console.log(newNumber)
+                console.log(newNumberOne)     
         }
 };
 
 function newNumberOneNull (){
         if(newNumberOne == 0){
-           newNumber = 2;    
+           newNumber = 2; 
+           console.log(newNumberOne)
+           console.log(newNumber)   
         }
         else if(newNumberOne == 1){
-                newNumber = 2;      
+                newNumber = 1;   
+                console.log(newNumberOne)
+                console.log(newNumber)   
              }
         else if(newNumberOne == 2){
         newNumber = 0; 
+        console.log(newNumberOne)
+        console.log(newNumber)
         }
 };
 
@@ -277,4 +290,48 @@ function caruselkNull (){
         else if(caruselBack == 2){
         carusel = 1;     
         }
+};
+
+
+
+// Вешаем на прикосновение функцию handleTouchStart
+const tuchScreen = document.querySelector(".faction_content_body");
+tuchScreen.addEventListener('touchstart', handleTouchStart, false);  
+// А на движение пальцем по экрану - handleTouchMove      
+tuchScreen.addEventListener('touchmove', handleTouchMove, false);
+
+var xDown = null;                                                        
+var yDown = null;                                                        
+
+function handleTouchStart(evt) {                                         
+    xDown = evt.touches[0].clientX;                                      
+    yDown = evt.touches[0].clientY;                                      
+};                                                
+
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+    // немного поясню здесь. Тут берутся модули движения по оси абсцисс и ординат (почему модули? потому что если движение сделано влево или вниз, то его показатель будет отрицательным) и сравнивается, чего было больше: движения по абсциссам или ординатам. Нужно это для того, чтобы, если пользователь провел вправо, но немного наискосок вниз, сработал именно коллбэк для движения вправо, а ни как-то иначе.
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+            /* left swipe */ 
+            console.log("left")
+            ducksImgSliderBack ();
+
+        } else {
+            /* right swipe */
+            console.log("right")
+            ducksImgSliderNext ();
+        }                       
+    } 
+    /* reset values */
+    xDown = null;
+    yDown = null;                                             
 };
