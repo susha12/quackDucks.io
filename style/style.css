@@ -308,7 +308,7 @@ li.header_menu__elements3 a{
     top: 572px;
     border-radius: 0px;
     position: absolute;
-    height: 193px;
+    /* height: 193px; */
     width: 259px;
     z-index: 10;
 }
