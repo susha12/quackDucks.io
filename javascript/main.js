@@ -64,6 +64,7 @@ let permissionSmall = 880;
 let newNumber = 0;
 let newNumberOne = 0;
 // ducksImgBack.onclick = ducksImgSliderBack ();
+ducksImgBack.addEventListener("click", ducksImgSliderBack);
 function ducksImgSliderBack () {
 
         newNumberNull ();
@@ -146,6 +147,8 @@ function ducksImgSliderBack () {
         caruselkNull ();
 
 }
+
+ducksImgNext.addEventListener("click", ducksImgSliderNext);
 // ducksImgNext.onclick = ducksImgSliderNext ();
 function ducksImgSliderNext () {
         newNumberOneNull ();
@@ -322,7 +325,7 @@ function handleTouchMove(evt) {
         if ( xDiff > 0 ) {
             /* left swipe */ 
             console.log("left");
-            ducksImgSliderBack ()
+            ducksImgSliderBack ();
 
         } else {
             /* right swipe */
