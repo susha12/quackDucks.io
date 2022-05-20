@@ -32,6 +32,9 @@ function clickEventOut (a) {
 
 
 // header display:none
+const displayNone= document.querySelector(".display_none");
+
+
 window.onscroll = function () { 
         console.log(sectionOneWelcome.getBoundingClientRect());
         if (window.outerWidth <= 880 && sectionOneWelcome.getBoundingClientRect().y <= -48){
@@ -335,12 +338,10 @@ function handleTouchMove(evt) {
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
             /* left swipe */ 
-            console.log("left");
             ducksImgSliderBack ();
 
         } else {
             /* right swipe */
-            console.log("right")
             ducksImgSliderNext ();
         }                       
     } 
@@ -348,3 +349,6 @@ function handleTouchMove(evt) {
     xDown = null;
     yDown = null;                                             
 };
+
+
+// section_three_vision
