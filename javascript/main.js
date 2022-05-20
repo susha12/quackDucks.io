@@ -63,7 +63,7 @@ let permissionMedium = 1000;
 let permissionSmall = 880;
 let newNumber = 0;
 let newNumberOne = 0;
-ducksImgBack.onclick = ducksImgSliderBack ();
+// ducksImgBack.onclick = ducksImgSliderBack ();
 function ducksImgSliderBack () {
 
         newNumberNull ();
@@ -146,8 +146,7 @@ function ducksImgSliderBack () {
         caruselkNull ();
 
 }
-
-ducksImgNext.onclick = ducksImgSliderNext ();
+// ducksImgNext.onclick = ducksImgSliderNext ();
 function ducksImgSliderNext () {
         newNumberOneNull ();
             ducksImgNext.style.display = "none";
@@ -262,9 +261,9 @@ function newNumberOneNull (){
                 console.log(newNumber)   
              }
         else if(newNumberOne == 2){
-        newNumber = 0; 
-        console.log(newNumberOne)
-        console.log(newNumber)
+                newNumber = 0; 
+                console.log(newNumberOne)
+                console.log(newNumber)
         }
 };
 
@@ -322,8 +321,8 @@ function handleTouchMove(evt) {
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
             /* left swipe */ 
-            console.log("left")
-            ducksImgSliderBack ();
+            console.log("left");
+            ducksImgSliderBack ()
 
         } else {
             /* right swipe */
