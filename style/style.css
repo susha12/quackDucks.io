@@ -798,6 +798,7 @@ img.welcome_box__arrow{
     height: 5940px;
     height: 1188px;
     overflow-x: hidden;
+    z-index: 1000;
 }
 
 .vision_small__window::-webkit-scrollbar {
@@ -875,6 +876,7 @@ img.welcome_box__arrow{
     border-radius: 0px;
     z-index: 10;
     mix-blend-mode: difference;
+    
 }
 .oneblock_right__img.absolute{
     position: absolute;
@@ -882,7 +884,7 @@ img.welcome_box__arrow{
     right: 8%;
     margin-top: 310px;
     margin-left: 65%;
-    z-index: 1;
+    z-index: 0;
 }
 
 
@@ -1882,8 +1884,6 @@ header{
 .vision{
     height: 844px;
     width: 390px;
-    background: rgba(255, 245, 245, 1);
-
     top: 50px;
 }
 .vision_small__window{
