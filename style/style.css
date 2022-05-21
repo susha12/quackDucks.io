@@ -885,6 +885,7 @@ img.welcome_box__arrow{
     margin-top: 310px;
     margin-left: 65%;
     z-index: -10;
+    mix-blend-mode: difference;
 }
 
 
@@ -1946,13 +1947,15 @@ header{
 }
 .oneblock_right__img{
     height: 322px;
-    width: 322px;   
+    width: 322px;  
+    mix-blend-mode: difference; 
 }
 .oneblock_right__img.absolute{
     top: 50%;
     right: 0%;
     margin-top: 0px;
     margin-left: 0%;
+    mix-blend-mode: difference;
 }
 .oneBlock_left__title.five{
     justify-content: center;
