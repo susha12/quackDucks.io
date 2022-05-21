@@ -875,8 +875,7 @@ img.welcome_box__arrow{
     width: 480px;
     border-radius: 0px;
     z-index: 10;
-    mix-blend-mode: difference;
-    
+    mix-blend-mode: difference; 
 }
 .oneblock_right__img.absolute{
     position: absolute;
@@ -885,7 +884,6 @@ img.welcome_box__arrow{
     margin-top: 310px;
     margin-left: 65%;
     z-index: -10;
-    mix-blend-mode: difference;
 }
 
 
@@ -1371,6 +1369,11 @@ img.welcome_box__arrow{
 }
  /* max-width 880px */
  @media screen and (max-width: 880px) {
+body{
+    width: 97%;
+    margin: 0 auto;
+}
+
 /* header box */
 header{
     height: 844px;
@@ -1948,14 +1951,13 @@ header{
 .oneblock_right__img{
     height: 322px;
     width: 322px;  
-    mix-blend-mode: difference; 
+
 }
 .oneblock_right__img.absolute{
     top: 50%;
     right: 0%;
     margin-top: 0px;
     margin-left: 0%;
-    mix-blend-mode: difference;
 }
 .oneBlock_left__title.five{
     justify-content: center;
