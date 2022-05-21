@@ -1,3 +1,10 @@
+// page null coordinats
+// window.onload = function () { 
+//         window.scrollTo(0, 0);
+//         // setTimeout(startfive, 1000);
+//     };
+
+
 // nav bar add class black
 const nav = document.querySelector("nav");
 
@@ -33,10 +40,11 @@ function clickEventOut (a) {
 
 // header display:none
 const displayNone= document.querySelector(".display_none");
-
-
+const vision = document.querySelector(".vision");
+const visionScroll= document.querySelector(".vision_small__window");
 window.onscroll = function () { 
-        console.log(sectionOneWelcome.getBoundingClientRect());
+        visionStart ();
+        // console.log(sectionOneWelcome.getBoundingClientRect());
         if (window.outerWidth <= 880 && sectionOneWelcome.getBoundingClientRect().y <= -48){
                 displayNone.style.display = "none";
                 
@@ -45,7 +53,18 @@ window.onscroll = function () {
                 displayNone.style.display = "block";
         }
     };
-
+function visionStart (){
+        console.log(vision.getBoundingClientRect());
+        if (window.outerWidth <= 880 && vision.getBoundingClientRect().y <= 800){
+                visionScroll.classList.add("active");
+                console.log("yes")
+                
+        }
+        else{
+                visionScroll.classList.remove("active");
+                console.log("no")
+        }
+}
 
 
 // section_two_factions
@@ -251,36 +270,36 @@ function ducksImgSliderNext () {
 function newNumberNull (){
         if(newNumber == 0){
                 newNumberOne = 2;
-                console.log(newNumber)
-                console.log(newNumberOne)    
+                // console.log(newNumber)
+                // console.log(newNumberOne)    
         }
         else if(newNumber == 1){
                 newNumberOne = 1;
-                console.log(newNumber)
-                console.log(newNumberOne)    
+                // console.log(newNumber)
+                // console.log(newNumberOne)    
              }
         else if(newNumber == 2){
                 newNumberOne = 0;
-                console.log(newNumber)
-                console.log(newNumberOne)     
+                // console.log(newNumber)
+                // console.log(newNumberOne)     
         }
 };
 
 function newNumberOneNull (){
         if(newNumberOne == 0){
            newNumber = 2; 
-           console.log(newNumberOne)
-           console.log(newNumber)   
+        //    console.log(newNumberOne)
+        //    console.log(newNumber)   
         }
         else if(newNumberOne == 1){
                 newNumber = 1;   
-                console.log(newNumberOne)
-                console.log(newNumber)   
+                // console.log(newNumberOne)
+                // console.log(newNumber)   
              }
         else if(newNumberOne == 2){
                 newNumber = 0; 
-                console.log(newNumberOne)
-                console.log(newNumber)
+                // console.log(newNumberOne)
+                // console.log(newNumber)
         }
 };
 
