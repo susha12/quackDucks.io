@@ -55,7 +55,7 @@ window.onscroll = function () {
     };
 function visionStart (){
         console.log(vision.getBoundingClientRect());
-        if (window.outerWidth <= 880 && vision.getBoundingClientRect().y <= 0){
+        if (window.outerWidth <= 880 && vision.getBoundingClientRect().y <= 200){
                 visionScroll.classList.add("active");
                 console.log("yes")
                 
