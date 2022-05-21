@@ -1369,10 +1369,7 @@ img.welcome_box__arrow{
 }
  /* max-width 880px */
  @media screen and (max-width: 880px) {
-body{
-    width: 97%;
-    margin: 0 auto;
-}
+
 
 /* header box */
 header{
