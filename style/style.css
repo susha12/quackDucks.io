@@ -884,7 +884,7 @@ img.welcome_box__arrow{
     right: 8%;
     margin-top: 310px;
     margin-left: 65%;
-    z-index: 0;
+    z-index: -10;
 }
 
 
@@ -961,7 +961,6 @@ block welcome */
     right: 4%;
     margin-top: 310px;
     margin-left: 65%;
-    z-index: 1;
 
 }
 }
@@ -1954,7 +1953,6 @@ header{
     right: 0%;
     margin-top: 0px;
     margin-left: 0%;
-    z-index: 1;
 }
 .oneBlock_left__title.five{
     justify-content: center;
