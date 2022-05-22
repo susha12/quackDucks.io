@@ -55,7 +55,7 @@ window.onscroll = function () {
     };
 function visionStart (){
         console.log(vision.getBoundingClientRect());
-        if (window.outerWidth <= 880 && vision.getBoundingClientRect().y <= 10){
+        if (window.outerWidth <= 880 && vision.getBoundingClientRect().y <= 35){
                 visionScroll.classList.add("active");
                 console.log("yes")
                 
@@ -370,4 +370,60 @@ function handleTouchMove(evt) {
 };
 
 
-// section_three_vision
+// section_three_vision 
+
+
+// five block img ducks 
+const dusksAbsolute = document.querySelector(".dusks_smallBox__absolute");
+const dusksClose = document.querySelector(".smallBox_absolute__close");
+const ducksAllImg = document.querySelectorAll(".small_box__img");
+const absoluteBigImg = document.querySelector(".smallBox_absolute__bigImg");
+
+
+
+function duckAbsolute (a) {
+
+        let img = ducksAllImg[a].src;
+        absoluteBigImg.src = ducksAllImg[a].src;
+        console.log(ducksAllImg[a].src);
+        dusksAbsolute.style.display = "flex";
+}
+function duckClose () {
+        dusksAbsolute.style.display = "none";
+}
+
+
+// six block faq
+const sectionSmallPlus = document.querySelectorAll(".sectionSmall_box__plus");
+const sectionSmallText = document.querySelectorAll(".sectionSmall_box__text");
+
+ function faqPluse (a){
+        if (sectionSmallText[a].style.display === "flex"){
+                for (let i = 0; i < sectionSmallText.length; i++){
+                        sectionSmallText[i].style.display="none";
+                }
+                sectionSmallText[a].style.display="none";
+        }       
+
+        else{
+                for (let i = 0; i < sectionSmallText.length; i++){
+                        sectionSmallText[i].style.display="none";
+                }
+                sectionSmallText[a].style.display="flex";   
+        } 
+}  
+
+const faqDusksSection = document.querySelector(".faq_dusks__sectionBig");
+const smallBoxImg = document.querySelector(".img_dusks__smallBox");
+
+
+ faqDusksSection.onmouseover = ()=>{
+        faqDusksSection.classList.add("active");
+        smallBoxImg.style.zIndex = "1";
+        console.log("yes")
+
+ }
+
+
+
+
