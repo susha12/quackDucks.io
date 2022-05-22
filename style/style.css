@@ -887,7 +887,7 @@ img.welcome_box__arrow{
     /* height: 1397px; */
     width: 1920px;
     max-width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     top: -250px;
     position: relative;
     z-index: 10;
@@ -909,7 +909,7 @@ img.welcome_box__arrow{
     max-height: 1397px;
     max-width: 1436px;
     width: 90%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -933,8 +933,8 @@ img.welcome_box__arrow{
     display: none;
     position: absolute;
     width: 100%;
-    height: 100%;
-    align-items: flex-start;
+    height: 34%;
+    align-items: center;
     justify-content: center;
     background: rgba(4, 4, 4, 1);
     /* border: 2px solid red; */
@@ -981,7 +981,7 @@ img.welcome_box__arrow{
     height: 1597px;
     max-width: 1436px;
     width: 90%;
-    border: 2px solid rgb(255, 221, 0);
+    /* border: 2px solid rgb(255, 221, 0); */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -992,9 +992,9 @@ img.welcome_box__arrow{
     
 } 
 .faq_dusks__sectionBig{
-    height:1930px;
+    height:1730px;
     max-width: 1436px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     bottom: 0px;
     margin: 0 auto;
@@ -1014,20 +1014,20 @@ img.welcome_box__arrow{
     overflow-y: scroll;
 }
 .faq_dusks__sectionNull{
-    min-height: 1750px;
+    min-height: 1630px;
     width: 100%;
-    border: 2px solid rgb(0, 240, 24);
+    /* border: 2px solid rgb(0, 240, 24); */
 }
 .faq_dusks__sectionOne{
-    min-height: 1235px;
+    min-height: 1030px;
     width: 100%;
-    border: 2px solid rgb(17, 0, 251);
+    /* border: 2px solid rgb(17, 0, 251); */
 }
 
 .faq_dusks__sectionSmall{
     min-height: 690px;
     width: 1017.5px;
-    border: 2px solid rgb(255, 255, 255);
+    /* border: 2px solid rgb(255, 255, 255); */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1112,7 +1112,7 @@ img.welcome_box__arrow{
 .img_dusks__backgroundTop{
     position: absolute;
     margin: 0 auto;
-    bottom: 200px;
+    bottom: 50px;
     z-index: 0;
 }
 
