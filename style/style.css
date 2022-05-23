@@ -39,7 +39,7 @@
     box-sizing: border-box;
 }
 body{
-    min-height: 200vh;
+    min-height: 100vh;
     width: 100%;
     background: #030303;
     display: flex;
@@ -883,7 +883,7 @@ img.welcome_box__arrow{
 /* five block img ducks */
 
 .block_img__dusks{
-    height: 2933px;
+    height: 2733px;
     /* height: 1397px; */
     width: 1920px;
     max-width: 100%;
@@ -903,6 +903,7 @@ img.welcome_box__arrow{
     position: absolute;
     top: 213px;
     left: 0%;
+    width: 100%;
     z-index: -1;
 }
 .img_dusks__smallBox{
@@ -925,7 +926,7 @@ img.welcome_box__arrow{
     border-radius: 0px;
     margin: 8px 8px;
     cursor: pointer;
-    z-index: 10;
+    z-index: 0;
 }
 
 
@@ -933,15 +934,15 @@ img.welcome_box__arrow{
     display: none;
     position: absolute;
     width: 100%;
-    height: 34%;
+    height: 37%;
     align-items: center;
     justify-content: center;
     background: rgba(4, 4, 4, 1);
     /* border: 2px solid red; */
-    z-index: 1000;
+    z-index: 100;
 }
 .smallBox_absolute__column{
-    height:auto;
+    height:100%;
     width: 743px;
     display: flex;
     flex-direction: column;
@@ -953,8 +954,6 @@ img.welcome_box__arrow{
 .smallBox_absolute__bigImg{
     height: 743px;
     width: 743px;
-    left: 3174px;
-    top: 10576px;
     border-radius: 0px;
     background: radial-gradient(102.43% 94.05% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     
@@ -977,8 +976,9 @@ img.welcome_box__arrow{
 }
 
 /* faq section */
+
 .faq_dusks__smallBox{
-    height: 1597px;
+    height: 1297px;
     max-width: 1436px;
     width: 90%;
     /* border: 2px solid rgb(255, 221, 0); */
@@ -988,29 +988,34 @@ img.welcome_box__arrow{
     flex-wrap: wrap; 
     margin: 0 auto;
     position: relative;
-    z-index: 1;
-    
+    z-index: 10;
+    bottom: 0px;
+    overflow: hidden;
 } 
+.faq_dusks__smallBox.active{
+    overflow: inherit;
+}
 .faq_dusks__sectionBig{
     height:1730px;
     max-width: 1436px;
     /* border: 2px solid red; */
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 435px;
+
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 0;
     overflow-y: hidden;
-    z-index: 10;
+    z-index: -10;
 
 }
 .faq_dusks__sectionBig::-webkit-scrollbar {
     width: 0;
   }
 .faq_dusks__sectionBig.active{
-    z-index: 100;
+    z-index: -1000;
     overflow-y: scroll;
 }
 .faq_dusks__sectionNull{
@@ -1036,7 +1041,6 @@ img.welcome_box__arrow{
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
-    z-index: 1;
 
 }
 
@@ -1113,7 +1117,7 @@ img.welcome_box__arrow{
     position: absolute;
     margin: 0 auto;
     bottom: 50px;
-    z-index: 0;
+    z-index: -10000;
 }
 
 
