@@ -415,13 +415,14 @@ const sectionSmallText = document.querySelectorAll(".sectionSmall_box__text");
 
 const faqDusksSection = document.querySelector(".faq_dusks__sectionBig");
 const smallBoxImg = document.querySelector(".img_dusks__smallBox");
+const faqDusksSmallBox = document.querySelector(".faq_dusks__smallBox");
 
-
- faqDusksSection.onmouseover = ()=>{
+// faqDusksSmallBox.onmouseover =
+function sliderUp () {
         faqDusksSection.classList.add("active");
         smallBoxImg.style.zIndex = "1";
-        console.log("yes")
-
+        console.log("yes");
+        faqDusksSmallBox.classList.add("active");
  }
 
 
